@@ -4,7 +4,7 @@
 
 > 🎓 This project was developed as a **school project for CPE 502**.
 
-![NetMon Dashboard](./screenshots/dashboard.jpg)
+![NetMon Dashboard](./screenshots/img.png)
 
 ---
 
