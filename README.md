@@ -6,7 +6,7 @@
 
 ![NetMon Dashboard](./screenshots/img.png)
 
-[Download demo video](./demo.mp4)
+[Download demo video](https://github.com/JohnPraise247/NetMon/raw/refs/heads/main/demo.mp4)
 
 ---
 
