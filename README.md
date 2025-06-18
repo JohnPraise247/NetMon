@@ -10,40 +10,43 @@
 
 ---
 
-## ✨ Features
+## Features
 
-* 📶 **Wi-Fi Signal Visualization**
+* **Wi-Fi Signal Visualization**
   5 LEDs indicate signal strength (from poor to excellent).
 
-* 🌐 **Internet Status LEDs**
+* **Internet Status LEDs**
   Green LED (Online), Red LED (Offline).
 
-* ⏰ **Live Time Sync via NTP**
+* **Live Time Sync via NTP**
   Formatted as 12-hour AM/PM clock.
 
-* 🌦️ **Weather Monitoring**
+* **Weather Monitoring**
   Uses [WeatherAPI](https://www.weatherapi.com/) to display location-based temperature and condition.
 
-* 🔧 **AP + STA Dual Mode**
+* **AP + STA Dual Mode**
   Automatically starts a Wi-Fi hotspot for fallback access (`SSID: NetMon`, `Password: 12345678`).
 
-* 📱 **Mobile-Friendly Dashboard**
+* **Mobile-Friendly Dashboard**
   View system status, weather, and time. Update settings like SSID/password and location.
 
-* 🔒 **Login Authentication**
+* **Login Authentication**
   Protect settings with login (`admin` / `admin`).
 
-* 💾 **Persistent EEPROM WiFi Storage**
+* **Persistent EEPROM WiFi Storage**
   Saves credentials and attempts auto-reconnection on boot.
 
 ---
 
-## 🧰 Hardware Requirements
+## Hardware Requirements
 
-* ✅ ESP32 development board
-* ✅ 7x LEDs
-* ✅ 330Ω resistors
-* ✅ Breadboard + jumper wires
+* ESP32 development board
+* 7x LEDs
+* 330Ω resistors
+* ABS Wire Junction Box (100x68x50)
+* PD140W USB C Female to Male Adapter
+* Type C USB cable
+
 
 **Pin Assignments:**
 
@@ -55,7 +58,7 @@
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Signin Page
 
@@ -73,7 +76,7 @@
 
 ---
 
-## 🔧 How to Setup
+## How to Setup
 
 ### 1. Install Libraries
 
@@ -107,7 +110,7 @@ char pass[32] = "SSID_PASSWORD";
 String weatherApiKey = "YOUR_API_KEY";
 ```
 
-> ✅ Sign up for a free API key at [weatherapi.com](https://www.weatherapi.com/).
+> Sign up for a free API key at [weatherapi.com](https://www.weatherapi.com/).
 
 ### 4. Flash the ESP32
 
@@ -115,7 +118,7 @@ Upload the code using Arduino IDE. Open the Serial Monitor to see logs.
 
 ---
 
-## 🌐 Accessing the Dashboard
+## Accessing the Dashboard
 
 * Connect your phone or PC to the `NetMon` hotspot (password: `12345678`)
 * Open `http://192.168.4.1` in your browser
@@ -133,14 +136,14 @@ You can then:
 
 ---
 
-## 🧠 Project Info
+## Project Info
 
-* 📘 **Course**: CPE 502
-* 🧑‍💻 **Created by**: Group 2
-* 👨‍🏫 **Supervisor**: Prof.Olaniyan
+* **Course**: CPE 502
+* **Created by**: Group 2
+* **Supervisor**: Prof.Olaniyan
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License 
