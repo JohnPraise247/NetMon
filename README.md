@@ -57,8 +57,6 @@
 
 ## 📸 Screenshots
 
-> *(Add your screenshots to `/screenshots` folder and reference them below)*
-
 ### Signin Page
 
 ![Signin](./screenshots/1.png)
