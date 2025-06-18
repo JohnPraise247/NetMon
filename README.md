@@ -6,6 +6,8 @@
 
 ![NetMon Dashboard](./screenshots/img.png)
 
+[Download demo video](./demo.mp4)
+
 ---
 
 ## ✨ Features
